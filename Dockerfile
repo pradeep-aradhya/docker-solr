@@ -9,7 +9,7 @@ RUN yum -y update && yum clean all
 
 RUN yum install -y java-1.7.0-openjdk.x86_64 java-1.7.0-openjdk-devel.x86_64 wget tar
 
-ENV SOLR_VERSION 4.10.3
+ENV SOLR_VERSION 4.10.4
 ENV SOLR solr-$SOLR_VERSION
 RUN yum -y install lsof curl procps && \
   mkdir -p /opt && \
