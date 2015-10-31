@@ -1,5 +1,3 @@
-# DOCKER-VERSION 1.0.1
-# VERSION        0.1
 
 FROM centos:6.6
 MAINTAINER  Pradeep Aradhya "pradeep4aradhya@gmail.com"
